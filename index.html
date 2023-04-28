@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #d5d5db;
+            background-image: linear-gradient(100deg,#eeeceb 0% #2e6b77 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 2;
+        }
+        form {
+            background-color: rgb(155, 63, 63);
+            max-width: 360px;
+            width: 100%;
+            padding: 52px 45px;
+            border-radius: 5px;
+            box-shadow: rgb(36,57,77)0px 20px 30px -10px
+        }
+        .row{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+
+        }
+        .row label{
+            font-size: 17px;
+        }
+        .row input{
+            flex: 1;
+            padding: 9px;
+            border:1px solid rgb(14, 51, 105) ;
+            border-radius: 5px;
+        }
+          .btn{
+            width: 100%;
+            padding: 9px;
+            font-size: 13px;
+            border: none;
+            border-radius: 25px;
+            background-color: rgb(195, 204, 212);
+            cursor: pointer;
+            margin-top: 15px;
+          }
+    </style>
+</head>
+<h2>login</h2>
+
+<body>
+    <form>
+        <div class="row">
+            <label>usernaME</label>
+            <input placeholder="enter your name"/>
+        </div>
+        <div class="row">
+            <label>password</label>
+            <input type="password" placeholder="enter password"/>
+        </div>
+        <button>login</button>
+    </form>
+</body>
+</html>
